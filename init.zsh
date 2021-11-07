@@ -16,8 +16,5 @@ function virtenv_indicator {
 add-zsh-hook precmd virtenv_indicator
 
 # The prompt proper
-PS1="${newline}%{$(tput setab 4)%}%(1V.(%1v) .)${dir} %{$(tput setaf 0)%}%{$(tput sgr0)%}${newline}"
-
-# Underline command
-zle_highlight=(default:underline)
+PS1="${newline}%{$(tput setab 4)%}%(1V.(%1v) .)${dir} %{$(tput setaf 0)%}%{$(tput sgr0)%}${newline}$ "
 

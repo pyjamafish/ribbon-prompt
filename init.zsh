@@ -1,7 +1,6 @@
 # Helper strings
 dir="%~"
 newline=$'\n'
-autoload -U colors && colors
 
 # Disable built-in virtualenv prompt
 # https://askubuntu.com/a/387098
@@ -17,7 +16,7 @@ function virtenv_indicator {
 add-zsh-hook precmd virtenv_indicator
 
 # The prompt proper
-PS1="${newline}%{$bg[blue]%}%(1V.(%1v) .)${dir} %{$fg[black]%}%{$reset_color%}${newline}"
+PS1="${newline}%{$(tput setab 4)%}%(1V.(%1v) .)${dir} %{$(tput setaf 0)%}%{$(tput sgr0)%}${newline}"
 
 # Underline command
 zle_highlight=(default:underline)

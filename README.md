@@ -12,6 +12,6 @@ zinit light tactlessfish/ribbon-prompt
 ```
 
 ## Notes
-- Only looks good when the colorscheme's black is the same as its background color.
-- No bells & whistles, just the current directory.
-- Requires Powerline symbols
+- Only looks good when the colorscheme's black color (40) is the same as its background color (49).
+- No bells & whistles, just shows the current directory.
+- Requires Powerline symbols.

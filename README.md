@@ -1,4 +1,4 @@
 # ribbon-prompt
-An extremely simple zsh prompt.
+An simple and pleasant zsh prompt.
 
-![prompt in use](https://i.imgur.com/erO2xwm.png)
+![prompt in use](https://i.imgur.com/Iv6X4DZ.png)

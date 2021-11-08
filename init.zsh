@@ -16,7 +16,7 @@ ribbon_end=$(tput sgr0; tput setaf ${ribbon_color}; tput smso)
 export VIRTUAL_ENV_DISABLE_PROMPT=yes
 
 function virtenv_indicator {
-    if [[ -z $VIRTUAL_ENV ]] then
+    if [[ -z $VIRTUAL_ENV ]]; then
         psvar[1]=''
     else
         psvar[1]=${VIRTUAL_ENV##*/}

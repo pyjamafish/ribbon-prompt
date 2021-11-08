@@ -1,6 +1,8 @@
+# Set the ribbon color (1-6).
 ribbon_color=4
 
-# Helper strings
+
+# Helper strings.
 dir="%~"
 newline=$'\n'
 ribbon_bg=$(tput setab ${ribbon_color})
@@ -8,7 +10,8 @@ ribbon_bg=$(tput setab ${ribbon_color})
 # https://stackoverflow.com/a/24198187/14106506
 ribbon_end=$(tput sgr0; tput setaf ${ribbon_color}; tput smso)
 
-# Disable built-in virtualenv prompt
+
+# Disable built-in virtualenv prompt.
 # https://askubuntu.com/a/387098
 export VIRTUAL_ENV_DISABLE_PROMPT=yes
 
@@ -21,6 +24,7 @@ function virtenv_indicator {
 }
 add-zsh-hook precmd virtenv_indicator
 
-# The prompt proper
+
+# The prompt proper.
 PS1="${newline}%{${ribbon_bg}%}%(1V.(%1v) .)${dir} %{${ribbon_end}%}%{$(tput sgr0)%}${newline}$ "
 

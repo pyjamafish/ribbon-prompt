@@ -24,5 +24,5 @@ function () {
     local ribbon_end=$(tput sgr0; tput setaf ${ribbon_color}; tput smso)
 
     # The prompt proper.
-    export PS1="${newline}%{${ribbon_bg}%}%(1V.(%1v) .)${dir} %{${ribbon_end}%}%{$(tput sgr0)%}${newline}$ "
+    PS1="${newline}%{${ribbon_bg}%}%(1V.(%1v) .)${dir} %{${ribbon_end}%}%{$(tput sgr0)%}${newline}$ "
 }

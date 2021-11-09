@@ -1,2 +1,5 @@
 .DS_Store
 
+# Zsh compiled script + zrecompile backup
+*.zwc
+*.zwc.old

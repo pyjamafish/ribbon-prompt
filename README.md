@@ -13,4 +13,5 @@ zinit light tactlessfish/ribbon-prompt
 
 ## Notes
 - No bells & whistles, just shows the current directory.
-- Requires Powerline "right arrow" glypth.
+- Requires Powerline "left arrow" glypth.
+- Looks wonky in terminals with transparency.

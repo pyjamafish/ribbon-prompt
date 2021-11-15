@@ -12,6 +12,6 @@ zinit light tactlessfish/ribbon-prompt
 ```
 
 ## Notes
-- No bells & whistles, just shows the current directory.
+- No bells & whistles: just shows the current directory (and virtual environment, if in one)
 - Requires Powerline "left arrow" glypth.
 - Looks wonky in terminals with transparency.

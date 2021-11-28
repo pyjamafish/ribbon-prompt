@@ -1,5 +1,5 @@
 # ribbon-prompt
-A simple and pleasant zsh prompt.
+A quaint zsh prompt in the shape of a ribbon.
 
 ![prompt in action](https://i.imgur.com/HCxb9pO.png)
 
